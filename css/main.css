@@ -53,6 +53,6 @@ h2 a span:hover {
 	color: rgb(200,200,175);
 }
 
-.no-underline:hover {
+.no-underline:hover, .no-underline:focus {
 	text-decoration: none;
 }
