@@ -40,6 +40,12 @@ body {
 	background-size: 100%;
 }
 
+.shadow-text {
+	 text-shadow: 1px 1px darkgray;
+}
+
+/* === Home === */
+
 .img-shadow{
 	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.7);
 }
@@ -61,7 +67,23 @@ h2 a span:hover {
 	padding-top: 70px;
 }
 
+/* === Navbar === */
+
+.nav-text {
+	font-size: 22px;
+}
+
 .navbar.navbar-default.navbar-fixed-top.transparent {
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0);
 	border-bottom: none;
 }
+
+.navbar-default .navbar-nav>li>a {
+	color: cornsilk;
+}
+
+.navbar-default .navbar-brand {
+    color: cornsilk;
+}
+
+
