@@ -56,3 +56,12 @@ h2 a span:hover {
 .no-underline:hover, .no-underline:focus {
 	text-decoration: none;
 }
+
+.main {
+	padding-top: 70px;
+}
+
+.navbar.navbar-default.navbar-fixed-top.transparent {
+	background: rgba(255,255,255,0.5);
+	border-bottom: none;
+}
