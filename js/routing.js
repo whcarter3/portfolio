@@ -10,7 +10,7 @@
 			$routeProvider
 
 				// route for the home page
-				.when('/#', {
+				.when('/', {
 					templateUrl	: 'views/home.html',
 					controller 	: 'mainController'
 				})
