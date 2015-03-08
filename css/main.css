@@ -31,20 +31,6 @@ a.symbol:before {
     font-size: 130%;
 }
 
-/* ======== Western Font ======== */
-
-@font-face {
-    font-family: 'western_bang_bangregular';
-    src: url('../fonts/Western Bang Bang-webfont.eot');
-    src: url('../fonts/Western Bang Bang-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Western Bang Bang-webfont.woff2') format('woff2'),
-         url('../fonts/Western Bang Bang-webfont.woff') format('woff'),
-         url('../fonts/Western Bang Bang-webfont.ttf') format('truetype'),
-         url('../fonts/Western Bang Bang-webfont.svg#western_bang_bangregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* ======== Regular CSS ======== */
 
 body {
@@ -54,7 +40,11 @@ body {
 }
 
 .shadow-text {
-	 text-shadow: 1px 1px cornsilk;
+	 text-shadow: 1px 1px black;
+}
+
+#main {
+	padding-top: 60px;
 }
 
 /* === Home === */
@@ -76,14 +66,14 @@ h2 a span:hover {
 	text-decoration: none;
 }
 
-#main {
-	padding-top: 70px;
+.red-text {
+	color: crimson;
 }
 
 /* === Navbar === */
 
 .nav-text {
-	font-size: 35px;
+	font-size: 22px;
 }
 
 .navbar.navbar-default.navbar-fixed-top.transparent {
@@ -92,14 +82,12 @@ h2 a span:hover {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: black;
-	font-family: 'western_bang_bangregular';
+	color: cornsilk;
 }
 
 .navbar-default .navbar-brand {
-    color: black;
-    font-family: 'western_bang_bangregular';
-    font-size: 40px;
+    color: cornsilk;
+    font-size: 2em;
 }
 
 /* ======== Resume Page ======== */
@@ -108,6 +96,14 @@ h2 a span:hover {
 	background-image: url('../img/canvas.jpg');
 	background-size: cover;
 	height: 80%;
+}
+
+.left-border {
+	border-left: 1px dotted gray;
+}
+
+.bottom-border {
+	border-bottom: 1px solid gray;
 }
 
 .resume-shadow
