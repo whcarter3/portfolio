@@ -43,10 +43,6 @@ body {
 	 text-shadow: 1px 1px black;
 }
 
-#main {
-	padding-top: 60px;
-}
-
 /* === Home === */
 
 .img-shadow{
@@ -73,10 +69,10 @@ h2 a span:hover {
 /* === Navbar === */
 
 .nav-text {
-	font-size: 22px;
+	font-size: 1.5em;
 }
 
-.navbar.navbar-default.navbar-fixed-top.transparent {
+.navbar.navbar-default.navbar-static-top.transparent {
 	background: rgba(255,255,255,0);
 	border-bottom: none;
 }
@@ -96,6 +92,7 @@ h2 a span:hover {
 	background-image: url('../img/canvas.jpg');
 	background-size: cover;
 	height: 80%;
+	margin-bottom: 40px;
 }
 
 .left-border {
