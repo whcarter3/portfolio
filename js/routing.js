@@ -25,10 +25,10 @@
 					controller 	: 'mainController'
 				})
 				// route for blog
-				.when('/blog', {
-					templateUrl	: 'views/blog.html',
-					controller 	: 'mainController'
-				})
+				// .when('/blog', {
+				// 	templateUrl	: 'views/blog.html',
+				// 	controller 	: 'mainController'
+				// })
 				// capture redirect
 				.otherwise({
 					redirectTo 	: '/'

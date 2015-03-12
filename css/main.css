@@ -36,7 +36,7 @@ a.symbol:before {
 body {
 	background-image: url('../img/bg.jpg');
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 
 .shadow-text {
@@ -136,4 +136,8 @@ h2 a span:hover {
             transform:skew(8deg) rotate(3deg);
 }
 
+/* ======== Work Page ======== */
 
+.work {
+	padding-bottom: 30px;
+}
