@@ -11,7 +11,7 @@
 
 				// route for the home page
 				.when('/', {
-					templateUrl	: 'home.html',
+					templateUrl	: 'main.html',
 					controller 	: 'mainController'
 				})
 				// route for work page
