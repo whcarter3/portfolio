@@ -1,0 +1,38 @@
+{
+  "name": "x-nes",
+  "version": "0.1.4",
+  "homepage": "https://github.com/koenkivits/x-nes",
+  "authors": [
+    "Koen Kivits <koen@kivits.com>"
+  ],
+  "description": "A NES emulator web component.",
+  "main": [
+    "src/x-nes.js",
+    "src/x-nes.jade",
+    "src/x-nes.css"
+  ],
+  "keywords": [
+    "nesnes",
+    "nes",
+    "emulator",
+    "web-components"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.1.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.4",
+    "commit": "5cf10bab1f26590c8e4accaaeac3f48d7dc3bf2e"
+  },
+  "_source": "git://github.com/koenkivits/x-nes.git",
+  "_target": "~0.1.4",
+  "_originalSource": "x-nes",
+  "_direct": true
+}
