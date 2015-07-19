@@ -16,7 +16,7 @@ $(document).ready(function  () {
 			if (kkeys.toString().indexOf( konami ) >= 0){
 				$(document).unbind('keydown', arguments.callee);
 
-				window.location.href = 'konami.html';
+				window.location.href = '/konami';
 			}
 		});
 	};
