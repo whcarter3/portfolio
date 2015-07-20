@@ -36,12 +36,12 @@
     <nav class='navbar navbar-default navbar-static-top transparent'>
       <div class="container-fluid">
         <div class="navbar-header">
-          <a href="/" class="navbar-brand nav-text shadow-text">Carter The Third</a>
+          <a href="/" class="navbar-brand nav-text shadow-text" id="brand-home">Carter The Third</a>
         </div>
         <ul class='nav navbar-nav navbar-right'>
-          <li><a class="nav-text shadow-text" href="/">Home</a></li>
-          <li><a class="nav-text shadow-text" href="work">Work</a></li>
-          <li><a class="nav-text shadow-text" href="resume">Resume</a></li>
+          <li><a class="nav-text shadow-text" href="/" id="home">Home</a></li>
+          <li><a class="nav-text shadow-text" href="work" id="work">Work</a></li>
+          <li><a class="nav-text shadow-text" href="resume" id="resume">Resume</a></li>
           <!-- <li><a class="nav-text shadow-text" href="blog">Blog</a></li> -->
         </ul>
       </div> <!-- end container-fluid -->
@@ -65,6 +65,7 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-65316139-1', 'auto');
+      ga('require', 'linkid', 'linkid.js');
       ga('send', 'pageview');
 
     </script>
