@@ -34,9 +34,9 @@ a.symbol:before {
 /* ======== Regular CSS ======== */
 
 body {
-	background-image: url('../img/bg.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image: url('../img/retina_wood.png');
+	/*background-repeat: no-repeat;
+	background-size: cover;*/
 }
 
 .shadow-text {
@@ -93,8 +93,8 @@ h2 a span:hover {
 /* ======== Resume Page ======== */
 
 .resume {
-	background-image: url('../img/canvas.jpg');
-	background-size: cover;
+	background-image: url('../img/paper_fibers.png');
+	/*background-size: cover;*/
 	height: 80%;
 	margin-bottom: 40px;
 }
