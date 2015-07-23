@@ -6,6 +6,6 @@
 		function mainController() {
 			var self = this;
 
-			self.message = 'Hello World'
+			self.message = 'Hello World';
 		};
 })();

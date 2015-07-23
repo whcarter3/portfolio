@@ -29,6 +29,10 @@
 					templateUrl	: 'konami.html',
 					controller 	: 'mainController'
 				})
+				.when('/contact', {
+					templateUrl : 'contact.html',
+					controller 	: 'contactController'
+				})
 				// route for blog
 				// .when('/blog', {
 				// 	templateUrl	: 'blog.html',

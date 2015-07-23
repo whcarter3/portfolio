@@ -1,0 +1,44 @@
+<div class="container">
+	<div class="row">
+		<div class="panel panel-info contact-shadow">
+			<div class="panel-heading">
+				<h2 class="panel-title">Contact Me</h2>
+			</div>
+			<div class="panel-body" ng-controller="contactController as contact">
+				<!-- <p>{{ contact.msg }}</p> -->
+				<form ng-submit="contact.submit(contactform, $event)" name="contactform" method="post" action="" class="" role="form">
+					<div id="name-group" class="form-group" ng-class="{ 'has-error': contact.contactform.inputName.$invalid && submitted }">
+						<div class="col-md-6">
+							<label for="inputName">Name</label>
+							<input ng-model="contact.formData.inputName" name="inputName" type="text" class="form-control" id="inputName" placeholder="Name">
+							<!-- <span class="help-block"></span> -->
+						</div>
+					</div>
+
+					<div id="email-group" class="form-group" ng-class="{ 'has-error': contact.contactform.inputEmail.$invalid && submitted }">
+						<div class="col-md-6">
+							<label for="inputEmail">Email</label>
+							<input ng-model="contact.formData.inputEmail" name="inputEmail" type="email" class="form-control" id="inputEmail" placeholder="human@gmail.com">
+							<!-- <span class="help-block"></span> -->
+						</div>
+					</div>
+
+					<div id="message-group" class="form-group" ng-class="{ 'has-error': contact.contactForm.inputMessage.$invalid && submitted }">
+						<div class="col-md-12">
+							<label for="inputMessage">Message</label>
+							<textarea ng-model="contact.formData.inputMessage" name="inputMessage" class="form-control form-control-lg" id="inputMessage" rows="10" placeholder="Leave me a comment"></textarea>
+							<!-- <span class="help-block"></span> -->
+						</div>
+					</div>
+
+
+					<div class="form-group form-group-lg col-md-12">
+						<button type="submit" class="btn btn-info btn-lg" ng-disabled="contact.submitButtonDisabled">Submit</button>
+					</div>
+				</form>
+
+				<div ng-class="contact.result" id="messages">{{ contact.resultMessage }}</div>
+			</div>
+		</div>
+	</div>
+</div>
