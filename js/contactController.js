@@ -3,8 +3,10 @@
 		.module('app')
 		.controller('contactController', contactController);
 
-		function contactController($http) {
+		function contactController($http, $scope) {
 			var self = this;
+
+			$scope.pageClass = 'page-contact'
 
 			//test
 			self.msg = 'contact World';

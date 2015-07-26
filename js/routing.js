@@ -17,21 +17,21 @@
 				// route for work page
 				.when('/work', {
 					templateUrl	: 'work.html',
-					controller 	: 'mainController'
+					controller 	: 'workController'
 				})
 				// route for resume
 				.when('/resume', {
 					templateUrl	: 'resume.html',
-					controller 	: 'mainController'
-				})
-				//route for konami easter egg
-				.when('/konami', {
-					templateUrl	: 'konami.html',
-					controller 	: 'mainController'
+					controller 	: 'resumeController'
 				})
 				.when('/contact', {
 					templateUrl : 'contact.html',
 					controller 	: 'contactController'
+				})
+				//route for konami easter egg
+				.when('/konami', {
+					templateUrl	: 'konami.html',
+					controller 	: 'konamiController'
 				})
 				// route for blog
 				// .when('/blog', {
