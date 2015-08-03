@@ -37,7 +37,8 @@ body {
 	background-image: url('../img/retina_wood.png');
 	/*background-repeat: no-repeat;
 	background-size: cover;*/
-    font-family: 'Arvo', sans-serif
+    font-family: 'Lato', sans-serif;
+    /*font-weight: 300;*/
 }
 
 .shadow-text {
