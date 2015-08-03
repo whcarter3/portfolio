@@ -37,6 +37,7 @@ body {
 	background-image: url('../img/retina_wood.png');
 	/*background-repeat: no-repeat;
 	background-size: cover;*/
+    font-family: 'Montserrat', sans-serif
 }
 
 .shadow-text {
@@ -77,7 +78,7 @@ body {
 }
 
 .social {
-	color: cornsilk;
+	color: ivory;
 	font-size: 2em;
 }
 
@@ -105,20 +106,20 @@ h2 a span:hover {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: cornsilk;
+	color: ivory;
 }
 
 .navbar-default .navbar-brand {
-    color: cornsilk;
+    color: ivory;
     font-size: 2em;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: cornsilk;
+    border-color: ivory;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: cornsilk;
+    background-color: ivory;
 }
 
 /* ======== Resume Page ======== */
