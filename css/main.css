@@ -118,7 +118,7 @@ h2 a span:hover {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    color: cornsilk;
+    background-color: cornsilk;
 }
 
 /* ======== Resume Page ======== */
