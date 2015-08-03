@@ -51,58 +51,23 @@ body {
     position: relative;
 }
 
-.page{
-    position: absolute;
-    width: 100%;
+/*======== Page animations ======== */
+
+.page.ng-enter {
+    animation:view_enter 1s ease-in;
+}
+@keyframes view_enter {
+    0% { opacity: 0;}
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
-.page.ng-leave{
-    -webkit-animation: fade-out 0.5s ease-in;
-    -moz-animation: fade-out 0.5s ease-in;
-    -o-animation: fade-in 0.5s ease-in;
-    animation: fade-out 0.5s ease-in;
-    z-index: 8888;
+.page.ng-leave {
+    animation:view_leave 0.5s ease-out;
 }
-
-.page.ng-enter{
-    -webkit-animation: fade-in 0.5s ease-in;
-    -moz-animation: fade-in 0.5s ease-in;
-    -o-animation: fade-in 0.5s ease-in;
-    animation: fade-in 0.5s ease-in;
-    z-index: 8888;
-}
-
-/* 
-==============================================
-Animations*/
-@-webkit-keyframes fade-out{
-    from    { opacity: 1; }
-    to      { opacity: 0; }   
-}
-
-@-moz-keyframes fade-out {
-    from    { opacity: 1; }
-    to      { opacity: 0; }   
-}
-
-@keyframes fade-out {
-    from    { opacity: 1; }
-    to      { opacity: 0; }   
-}
-
-@-webkit-keyframes fade-in {
-    from    { opacity: 0; }
-    to      { opacity: 1; }   
-}
-
-@-moz-keyframes fade-in {
-    from    { opacity: 0; }
-    to      { opacity: 1; } 
-}
-
-@keyframes fade-in {
-    from    { opacity: 0; }
-    to      { opacity: 1; } 
+@keyframes view_leave {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
 }
 
 /* === Home === */
@@ -146,6 +111,14 @@ h2 a span:hover {
 .navbar-default .navbar-brand {
     color: cornsilk;
     font-size: 2em;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: cornsilk;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    color: cornsilk;
 }
 
 /* ======== Resume Page ======== */

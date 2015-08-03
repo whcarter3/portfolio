@@ -11,26 +11,26 @@
 
 				// route for the home page
 				.when('/', {
-					templateUrl	: 'main.html',
+					templateUrl	: 'views/main.html',
 					controller 	: 'mainController'
 				})
 				// route for work page
 				.when('/work', {
-					templateUrl	: 'work.html',
+					templateUrl	: 'views/work.html',
 					controller 	: 'workController'
 				})
 				// route for resume
 				.when('/resume', {
-					templateUrl	: 'resume.html',
+					templateUrl	: 'views/resume.html',
 					controller 	: 'resumeController'
 				})
 				.when('/contact', {
-					templateUrl : 'contact.html',
+					templateUrl : 'views/contact.html',
 					controller 	: 'contactController'
 				})
 				//route for konami easter egg
 				.when('/konami', {
-					templateUrl	: 'konami.html',
+					templateUrl	: 'views/konami.html',
 					controller 	: 'konamiController'
 				})
 				// route for blog
