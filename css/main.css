@@ -54,7 +54,7 @@ body {
 /*======== Page animations ======== */
 
 .page.ng-enter {
-    animation:view_enter 1s ease-in;
+    animation:view_enter 1.25s ease-in;
 }
 @keyframes view_enter {
     0% { opacity: 0;}
