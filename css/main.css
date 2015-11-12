@@ -1,5 +1,5 @@
 /* ======= Social Font Circles ======== */
-@font-face {
+/*@font-face {
     font-family: 'Mono Social Icons Font';
     src: url('../fonts/MonoSocialIconsFont-1.10.eot');
     src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
@@ -29,7 +29,7 @@ a.symbol:before {
     content: attr(title);
     margin-right: 0.3em;
     font-size: 130%;
-}
+}*/
 
 /* ======== Regular CSS ======== */
 
@@ -83,8 +83,12 @@ body {
 	font-size: 2em;
 }
 
-h2 a span:hover {
+h4 a i:hover {
 	color: rgb(200,200,175);
+}
+
+.social-icons a+a {
+    margin-left: 15px
 }
 
 .no-underline:hover, .no-underline:focus {
